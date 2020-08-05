@@ -3,32 +3,58 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Home Page</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/style.css">
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  
+  <title>FriendFinder</title>
 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+  crossorigin="anonymous">
+  
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" 
+  crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.1/js/bootstrap.min.js" 
+  integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J" 
+  crossorigin="anonymous"></script>
+
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+      integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+      crossorigin="anonymous">
+
+      <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
     <div class="container">
       <div class="jumbotron">
-        <h1>Friend Finder</h1>
-        <hr>
-        <h3>Answer a few questions to see if you are compatible</h3>
-        <br>
-        <a href="/app/public/survey.html"><button class="btn btn-lg btn-primary"><h4>Survey Time!</h4></button></a>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <p>
-          <a href="/app/data/friends.js">API Friends List</a>
-        </p>
-      </div>
-    </footer>
-    
-</body>
-</html>
+        <div class="Mntitle"><h1>It's time to meet your friend</h1></div>
+        <h2 class="Mntitle">Let's answer some questions.</h2>
+        <h2 class="Mntitle">
+          Then we will find you with someone to match your compatibility!
+        </h2>
+        <br />
+        <div>
+          <a href="/app/public/survey.html">
+            <button type="button" class="btn btn-lg btn-primary">
+              <h4>
+                <span class="glyphicon glyphicon-list-alt"></span>Go to the Survey
+              </h4>
+            </button>
+          </a>
+        </div>
+        <div><a href="/api/friends">API list</a></div>
+        </div>
+        <footer class="footer text-center">
+          <div class="container">
+            <p>
+              <a href="#">About Patience Condell</a>
+              <a href="https://github.com/rubbishspitfire/friend-finder">Github Repo</a>
+              <br />
+            </p>
+          </div>
+        </footer>
+        </div>
+        </body>
+        </html>
