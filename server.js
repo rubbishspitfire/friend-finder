@@ -19,9 +19,4 @@ app.use(express.static("app/public"));
 require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
-app.use(express.static(path.join(__dirname, "./public/home.html")))
-app.use('/', htmlRoutes)
-
-// Creating a listening function
-
 app.listen(port, () =>  console.log("Listening on port %s", port));
